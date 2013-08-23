@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Trachoma Tracker</title>
+    <title>Ethiopian Preg Wheel</title>
     <!-- <link rel="stylesheet" href="../../app/app.css"> -->
     
     <link rel="stylesheet" href="/resources/css/bootstrap.min.css">
@@ -13,7 +13,7 @@
     
     <style>
       body {
-        padding-top: 60px;  
+        /*padding-top: 60px;  */
         /*60px to make the container go all the way to the bottom of the topbar */
       }
     </style>
@@ -26,51 +26,41 @@
     <!-- </header> -->
     <body>
 
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container">
-          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="brand" href="#">Ethiopian Med Tools</a>
-          <div class="nav-collapse collapse">
-            <ul class="nav">
-              <li class=""><a href="/resources/index1.html">Home</a></li>
-              <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Trachoma Tracker<b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                  <li><a href="/resources/views/index1.html">Data Entry Form</a></li>
-                  <li><a href="/resources/views/guide.html">Guide to Trachoma</a></li>
-                  <!-- <li><a href="#">Something else here</a></li> -->
-                  <li class="divider"></li>
-                  <li><a href="#">Separated link</a></li>
-                </ul>
-              </li>
+    <nav class="navbar navbar-default" role="navigation">
+  <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="/resources/views/calendar.html">Ethiopia Pregnancy Wheel</a>
+  </div>
 
-              <li><a href="/resources/views/calendar.html">Ethiopian Pregnancy Wheel</a></li>
-              <li><a href="/resources/views/about.html">About & Contact</a></li>
-              
-            </ul>
-          </div><!--/.nav-collapse -->
-       </div>
-      </div>
-    </div>
+  <!-- Collect the nav links, forms, and other content for toggling -->
+  <div class="collapse navbar-collapse navbar-ex1-collapse">
+    <ul class="nav navbar-nav">
+      <li> <a href="/resources/views/calendar.html">Calculator</a></li>
+      <li class="active"><a href="/resources/views/about.html">About & Contact</a></li>
+    </ul> 
+  </div><!-- /.navbar-collapse -->
+</nav>
+
     <div class="container">
       <div class="row">
         <div class="span6">
-          <h2>About and Contact</h2>
-          <p>
-          This site is by Joe Rowley, and is for demonstration purposes only. 
-          It shouldn't be used for medical applications in it's current form 
-          and I take no responsibility for any damages it could cause to anyone. 
+          <h2>About & Contact</h2>
+          <p class="lead">
+          This site/app is by <a href="http://joerowley.net">Joe Rowley</a> (joer14@gmail.com). I take no responsibility for any damages it could cause to anyone, but I think it should be good. 
+          Always double check your calculations. Always. Big thank you to Yohannes Simeneh for development and continued support. Many others should be thanked also, you know who you are. Thank you. 
+          </p>
 
-          I didn't do any real work to make this site at all. 
+          To make this app I used a lot of tools, and just glued the pieces together - it took very little skill. 
           <ul>
-            <li>Twitter Bootstrap for layout</li>
-            <li>jquery Calendar plus the Ethiopian plugin for the pregnancy wheel. http://keith-wood.name/calendars.html Calendars for jQuery v1.2 </li>
-            <li> The guide is from a WHO document, I basically just made a webpage version of a sheet from their website... Sometimes it's good to try new things and see how they work in the field or on the web I should say. </li> 
+            <li><a href="http://getbootstrap.com/">Twitter Bootstrap</a> for layout</li>
+            <li><a href="http://keith-wood.name/calendars.html">Calendars for jQuery v1.2</a> by Keith Wood. Also the Ethiopian plugin by Tewodros Zena</li>
+            <li>App created by Adobe PhoneGap Build</li>
           </ul>
         </div>
       </div>
@@ -80,15 +70,6 @@
   <!-- </div> -->
 </div>
 
-
-    <!-- <td-todos></td-todos> -->
-   <!--  <footer id="info">
-      <p>Footer</p>
-    </footer> -->
-
-    <!-- Scripts here. Don't remove this ↓ -->
-    <!-- // <script src="../../components/polymer/polymer.min.js"></script> -->
-    <!-- <link rel="import" href="elements/td-todos.html"> -->
   </body>
 
 <script src="/resources/js/jquery-1.9.1.js"></script>
